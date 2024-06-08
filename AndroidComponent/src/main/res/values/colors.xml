@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primary">#6D79E6</color>
+    <color name="neutral0">#1D2038</color>
+    <color name="neutral1">#2D3258</color>
+    <color name="neutral2">#575B79</color>
+    <color name="neutral3">#797C94</color>
+    <color name="neutral4">#9496A9</color>
+    <color name="neutral5">#A9ABBA</color>
+    <color name="neutral6">#F7F7F7</color>
+    <color name="divider_border_l2">#454B79</color>
+    <color name="skin">#FFA78F</color>
+    <color name="blue">#109EDB</color>
+    <color name="red">#EB503B</color>
+    <color name="yellow">#DCBC4A</color>
+    <color name="pink">#E66D83</color>
+    <color name="green">#3D9A57</color>
+</resources>

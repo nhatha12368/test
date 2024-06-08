@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingVertical="@dimen/_20dp"
+    android:paddingHorizontal="@dimen/_16dp"
+    android:background="@drawable/custom_bg_item_language"
+    android:layout_marginBottom="@dimen/_16dp">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/flag_spain"
+        android:layout_centerVertical="true"
+        android:id="@+id/imgLanguage"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_18sp"
+        android:id="@+id/txtLanguage"
+        android:text="English"
+        android:layout_centerVertical="true"
+        android:textColor="@color/neutral6"
+        android:layout_toEndOf="@id/imgLanguage"
+        android:layout_marginStart="@dimen/_12dp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgChooseLanguage"
+        android:layout_alignParentEnd="true"
+        android:visibility="gone"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_ticked"/>
+</RelativeLayout>
